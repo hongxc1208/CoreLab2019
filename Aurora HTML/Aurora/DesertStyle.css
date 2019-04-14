@@ -1,0 +1,92 @@
+
+
+
+
+
+p{
+
+
+	font-family: "Century Gothic Std", normal,sans-serif;
+	font-size: 22pt;
+	width: 650px;
+	color:rgb(67,191,251);
+	margin:50px 45px;
+	
+
+}
+
+
+
+.options{
+	fontsize: 14pt;
+
+
+
+}
+
+.narrative{
+	font-family: "Nulshock", bold, sans-serif;
+	font-size:40pt;
+	color:white;
+	margin-left:70vw;
+	margin-top:-2vh;
+	
+
+
+
+}
+
+.selections{
+	font-family: "Century Gothic Std", normal,sans-serif;
+	font-size:18pt;
+	position:relative;
+	margin-left:3vw;
+	margin-top:10vh;
+
+	
+}
+
+#attack{
+	color: green;
+	background-color:yellow;
+	width: 300px;
+	transition: width 1s ease-in .5s;
+}
+
+#attack:hover{
+	width:400px;
+	animation-name:colorChange;
+	animation-duration: 4s;
+	animation-iteration-count: 1;
+
+}
+
+@keyframes colorChange{
+	0% {
+		background-color: yellow;
+	}
+	25%{
+		background-color: blue;
+	}
+	75%{
+		background-color: purple; 
+	}
+	100%{
+		background-color: yellow;
+	}
+}
+
+#peace{
+	color:blue;
+	background-color: yellow;
+	width:300px;
+	transition:width 1s ease-in .5s;
+}
+
+#peace:hover{
+	width:400px;
+	animation-name:colorChange;
+	animation-duration: 4s;
+	animation-iteration-count: 1;
+
+}
